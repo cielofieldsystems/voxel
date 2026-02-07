@@ -2,7 +2,7 @@
 
 This captures two reproducible synthetic demo presets:
 - Fast iteration (quick to run)
-- Presentation GIF (240 frames, smoother and longer for interviews)
+- Presentation GIF (240 frames, smoother and longer)
 
 Defaults used for both (not overridden):
 - `--num-cams 8`
