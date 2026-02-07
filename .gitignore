@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Outputs
+output/
+runs/
+data/
+calibration/
+*.npy
+*.npz
+*.png
+*.jpg
+*.jpeg
+*.gif
+voxel_grid*.bin
+voxel_grid*.json
+
+# Local-only notes / reference material
+notes/
+reference/
+
+# Keep curated media for the README/docs
+!docs/image/demo/**/*.png
+!docs/image/demo/**/*.jpg
+!docs/image/demo/**/*.jpeg
+!docs/image/demo/**/*.gif
+
+# OS
+.DS_Store
+Thumbs.db
