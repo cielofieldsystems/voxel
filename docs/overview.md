@@ -4,7 +4,7 @@ This project explores multi-camera voxel backprojection for detecting tiny, fast
 
 ## Pipeline
 1) Calibrate cameras (intrinsics, extrinsics, time sync).
-2) Compute motion maps per camera (abs(frame_t - frame_{t-1}) baseline; optical flow optional).
+2) Compute motion maps per camera (abs(frame_t - frame_{t-1}) baseline; optical flow could be added later).
 3) For each motion pixel, cast a ray into 3D and add weight to intersected voxels.
 4) Accumulate across cameras and frames.
 5) Find peaks in the voxel grid (clustering and tracking are optional).

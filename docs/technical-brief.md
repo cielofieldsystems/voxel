@@ -10,7 +10,7 @@ Small, fast objects are only a few pixels wide, so appearance-based detection is
 1) Calibrate cameras (intrinsics + extrinsics)
    - Needed so each pixel can be turned into a 3D ray in a common coordinate frame.
 2) Extract motion per camera
-   - Use frame differencing to isolate moving pixels (optical flow optional).
+   - Use frame differencing to isolate moving pixels (optical flow could be added later).
    - Motion is robust when objects are tiny and low contrast.
 3) Backproject motion pixels into a voxel grid
    - Each motion pixel casts a ray; voxel cells accumulate votes.

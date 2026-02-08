@@ -59,7 +59,7 @@ Notes:
 1) Ingest frames
    - Convert to grayscale and optionally denoise.
 2) Motion extraction
-   - Compute frame difference (optical flow optional).
+   - Compute frame difference (optical flow could be added later).
    - Keep sparse pixels with motion magnitude.
 3) Backprojection
    - For each motion pixel, cast a ray into world space.

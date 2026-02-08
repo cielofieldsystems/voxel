@@ -4,11 +4,13 @@ Multi-camera voxel backprojection for motion-based detection.
 
 ![Voxel motion demo](docs/image/demo/voxel_motion.gif)
 
+Requirements: Python 3.10+.
+
 ## Goal
 Fuse motion cues from multiple cameras into a 3D voxel grid so small, fast-moving objects that are only a few pixels wide become statistically detectable when many rays intersect.
 
 ## Core idea
-- Compute per-frame motion (frame differencing baseline; optical flow optional).
+- Compute per-frame motion (frame differencing baseline; optical flow could be added later).
 - Backproject motion pixels as rays into a voxel grid.
 - Accumulate votes; consistent intersections rise above noise.
 
