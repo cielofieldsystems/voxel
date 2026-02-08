@@ -9,6 +9,8 @@ Requirements: Python 3.10+.
 ## Goal
 Fuse motion cues from multiple cameras into a 3D voxel grid so small, fast-moving objects that are only a few pixels wide become statistically detectable when many rays intersect.
 
+This approach is meant to work even when each individual camera is low-cost/low-resolution, as long as poses and timestamps are good enough to fuse many views.
+
 ## Core idea
 - Compute per-frame motion (frame differencing baseline; optical flow could be added later).
 - Backproject motion pixels as rays into a voxel grid.

@@ -1,6 +1,6 @@
 # Overview
 
-This project explores multi-camera voxel backprojection for detecting tiny, fast-moving objects.
+This project explores multi-camera voxel backprojection for detecting tiny, fast-moving objects, including setups where each camera is relatively low-cost/low-resolution but many views are available.
 
 ## Pipeline
 1) Calibrate cameras (intrinsics, extrinsics, time sync).

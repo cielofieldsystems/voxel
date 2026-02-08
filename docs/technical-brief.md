@@ -27,6 +27,7 @@ Small, fast objects are only a few pixels wide, so appearance-based detection is
 - Geometry-first: no ML needed to see tiny targets.
 - Statistically strong: intersections rise above noise.
 - Parallel-friendly: each pixel ray can be processed independently.
+- Scales with inexpensive sensors: more low-cost cameras can beat a single high-end sensor if calibration and time sync are solid.
 
 ## Validation approach
 - Start with synthetic data to validate geometry and accumulation.
